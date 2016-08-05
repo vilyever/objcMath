@@ -16,4 +16,12 @@ FOUNDATION_EXPORT const unsigned char objcMathVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <objcMath/PublicHeader.h>
 
+#if !VDCGFloatSign
+#define VDFloatSign(float) \
+(float < 0.0f ? -1.0f : 1.0f)
+#endif
 
+#ifndef VDMatrixVerticalArrangeToHorizonArrange
+#define VDMatrixVerticalArrangeToHorizonArrange(num, rowCount, columnCount) \
+(num * columnCount - (num / rowCount) * (rowCount * columnCount - 1) )
+#endif

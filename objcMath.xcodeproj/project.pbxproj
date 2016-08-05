@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE6406771D547E5200652BAC /* objcMath.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6406761D547E5200652BAC /* objcMath.h */; };
+		FE6406771D547E5200652BAC /* objcMath.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6406761D547E5200652BAC /* objcMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE64067E1D547E5200652BAC /* objcMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6406731D547E5200652BAC /* objcMath.framework */; };
 		FE6406831D547E5200652BAC /* objcMathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6406821D547E5200652BAC /* objcMathTests.m */; };
+		FE6406901D547E6900652BAC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FE64068D1D547E6900652BAC /* Cartfile */; };
+		FE6406911D547E6900652BAC /* objcMath.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE64068E1D547E6900652BAC /* objcMath.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,9 @@
 		FE64067D1D547E5200652BAC /* objcMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6406821D547E5200652BAC /* objcMathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcMathTests.m; sourceTree = "<group>"; };
 		FE6406841D547E5200652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE64068D1D547E6900652BAC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		FE64068E1D547E6900652BAC /* objcMath.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcMath.podspec; sourceTree = "<group>"; };
+		FE64068F1D547E6900652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,9 @@
 				FE6406751D547E5200652BAC /* objcMath */,
 				FE6406811D547E5200652BAC /* objcMathTests */,
 				FE6406741D547E5200652BAC /* Products */,
+				FE64068D1D547E6900652BAC /* Cartfile */,
+				FE64068E1D547E6900652BAC /* objcMath.podspec */,
+				FE64068F1D547E6900652BAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +186,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6406911D547E6900652BAC /* objcMath.podspec in Resources */,
+				FE6406901D547E6900652BAC /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
